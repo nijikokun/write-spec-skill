@@ -1,10 +1,12 @@
 # Writing Specs Skill
 
-An [Amp](https://ampcode.com) skill for writing feature specification documents.
+A skill for writing feature specification documents. Works with both [Amp](https://ampcode.com) and [Claude Code](https://docs.anthropic.com/en/docs/claude-code).
 
 ## Installation
 
-Add this to your project's `.agents/skills.json`:
+### Amp
+
+Add to your project's `.agents/skills.json`:
 
 ```json
 {
@@ -12,17 +14,19 @@ Add this to your project's `.agents/skills.json`:
 }
 ```
 
-Or for a specific version:
+### Claude Code
+
+Add to your project's `.claude/skills.json`:
 
 ```json
 {
-  "github.com/nijikokun/write-spec-skill@v1.0.0": {}
+  "github.com/nijikokun/write-spec-skill": {}
 }
 ```
 
 ## Usage
 
-Once installed, Amp will automatically load this skill when you ask it to write a spec. Examples:
+Once installed, the skill will automatically load when you ask to write a spec. Examples:
 
 - "Write a spec for the new users API"
 - "Create a feature spec for dark mode"
@@ -35,4 +39,6 @@ The skill will:
 
 ## Customization
 
-To customize the template, fork this repo and modify `.agents/skills/writing-specs/templates/spec.md`.
+Fork this repo and modify the template at `templates/spec.md` in either:
+- `.agents/skills/writing-specs/` (Amp)
+- `.claude/skills/writing-specs/` (Claude Code)
