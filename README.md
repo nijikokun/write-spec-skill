@@ -6,23 +6,13 @@ A skill for writing feature specification documents. Works with both [Amp](https
 
 ### Amp
 
-Add to your project's `.agents/skills.json`:
-
-```json
-{
-  "github.com/nijikokun/write-spec-skill": {}
-}
+```bash
+amp skill add nijikokun/write-spec-skill
 ```
 
 ### Claude Code
 
-Add to your project's `.claude/skills.json`:
-
-```json
-{
-  "github.com/nijikokun/write-spec-skill": {}
-}
-```
+Copy the `.claude/skills/writing-specs/` directory to your project's `.claude/skills/` folder, or to `~/.claude/skills/` for global access.
 
 ## Usage
 
