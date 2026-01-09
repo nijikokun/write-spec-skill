@@ -8,7 +8,7 @@ Add this to your project's `.agents/skills.json`:
 
 ```json
 {
-  "github.com/YOUR_ORG/write-spec-skill": {}
+  "github.com/nijikokun/write-spec-skill": {}
 }
 ```
 
@@ -16,7 +16,7 @@ Or for a specific version:
 
 ```json
 {
-  "github.com/YOUR_ORG/write-spec-skill@v1.0.0": {}
+  "github.com/nijikokun/write-spec-skill@v1.0.0": {}
 }
 ```
 
