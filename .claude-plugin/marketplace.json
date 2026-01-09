@@ -1,0 +1,17 @@
+{
+  "name": "write-spec-skill",
+  "owner": {
+    "name": "nijikokun"
+  },
+  "metadata": {
+    "description": "Skills for writing feature specification documents"
+  },
+  "plugins": [
+    {
+      "name": "writing-specs",
+      "description": "Writes feature specification documents from user requirements. Use when asked to write a spec, create a spec, draft a feature spec, or document a new feature.",
+      "source": "./",
+      "commands": ".claude/skills/writing-specs"
+    }
+  ]
+}

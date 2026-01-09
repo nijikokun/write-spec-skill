@@ -10,9 +10,14 @@ A skill for writing feature specification documents. Works with both [Amp](https
 amp skill add nijikokun/write-spec-skill
 ```
 
+Or use the command palette: `/` → "Skill: Add" → `nijikokun/write-spec-skill`
+
 ### Claude Code
 
-Copy the `.claude/skills/writing-specs/` directory to your project's `.claude/skills/` folder, or to `~/.claude/skills/` for global access.
+```
+/plugin marketplace add nijikokun/write-spec-skill
+/plugin install writing-specs
+```
 
 ## Usage
 
