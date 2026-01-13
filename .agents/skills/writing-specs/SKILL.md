@@ -58,6 +58,17 @@ For references to code files, use GitHub URLs (not local file:// URLs):
 - Omit infrastructure choices (databases, queues, frameworks) unless they constrain the design
 - If an implementation detail is necessary, explain why it matters to the reader
 
+**Avoid in specs:**
+- Language-specific struct/class definitions (e.g., Go structs, TypeScript interfaces) unless absolutely necessary.
+- Specific file paths in "Components Affected" tables — use logical component names instead
+- Database schema DDL or migration code
+- Protobuf/gRPC message definitions
+
+**Instead, use:**
+- Data contract tables with columns like `name`, `value_type`, and `description`
+- Logical component names (e.g., "AI Gateway request handling" not `go/lib/tp/action/ai_gateway.go`)
+- JSON examples to illustrate data shapes
+
 ## Design Principles
 
 Always remember:
