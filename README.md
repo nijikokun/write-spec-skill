@@ -4,6 +4,12 @@ A skill for writing feature specification documents. Works with both [Amp](https
 
 ## Installation
 
+### Quick Install
+
+```bash
+curl -sL https://raw.githubusercontent.com/nijikokun/write-spec-skill/main/install.sh | bash
+```
+
 ### Amp
 
 ```bash
